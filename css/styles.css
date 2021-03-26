@@ -227,8 +227,10 @@ p {
   .heading1 {
     text-align: center;
   }
+ 
   .heading2 {
     text-align: center;
+    margin: 10% 0;
   }
 
   .park-image {
@@ -236,7 +238,7 @@ p {
   }
 
   .buttons {
-    margin: 0 5%;
+    margin: 0 25%;
   }
 
   .btn {
