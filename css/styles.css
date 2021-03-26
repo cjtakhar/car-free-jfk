@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 3em;
+  color: #edf6f9;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #264653;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+/* Title  */
+
+#Title {
+  background-color: #2a9d8f;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 2% 3%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: light;
+}
+.navbar-brand {
+  color: #edf6f9;
+  font-size: 1.75em;
+  opacity: .5;
+}
+
+.navbar-brand:hover {
+  color: #006d77;
+
+}
+
+.navbar-nav {
+  margin-left: 55%;
+  font-size: 1.25em;
+}
+
+.nav-link {
+  color: #edf6f9;
+  margin: 0 5%;
+  opacity: .5;
+}
+
+.nav-link:hover {
+  color: #006d77;
+}
+
+.icon {
+  margin: 0 15%;
+}
+
+/* Landing Page  */
+
+.heading1 {
+  padding: 2% 0;
+  letter-spacing: 2px;
+}
+
+.heading2 {
+  padding: 5% 15% 0 0;
+  line-height: 1.5em;
+}
+
+.park-image {
+  width: 80%;
+  height: 80%;
+}
+
+.buttons {
+  padding: 0 0 3%;
+}
+
+.btn {
+  color: #fff;
+  border: solid .16em #FFF;
+  font-size: 1.25em;
+  padding: 0.5em 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #006d77;
+}
+
+/* Call To Action */
+
+#Stakes
+
+.heading3 {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 3em;
+  color: #264653;
+  text-align: center;
+  margin: 10%;
+  }
+
+.stake-text {
+  text-align: centers;
+  margin: 5% 5% 15%;
+  font-size: 1.2em;
+}
+
+.stake {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.fa-frown, .fa-skull-crossbones, .fa-biohazard {
+  color: #264653;
+  margin: 0 0 10%;
+}
+
+.fa-frown:hover, .fa-skull-crossbones:hover, .fa-biohazard:hover {
+  color: #006d77;
+}
+
+#Opponents {
+  background-color: #264653;
+}
+
+.opponent {
+  text-align: center;
+}
+
+.heading4 {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.opponent-heading {
+  color: #fff;
+  padding: 5%;
+}
+
+.opponent-text {
+  text-align: left;
+  margin: 7% 15%;
+  color: #edf6f9;
+  font-size: 1.2em;
+  opacity: .75;
+}
+
+.fa-funnel-dollar, .fa-comment-dollar {
+  text-align: center;
+  margin: 5% 0;
+  color: #2a9d8f;
+}
+
+.fa-funnel-dollar:hover, .fa-comment-dollar:hover {
+  color: #edf6f9;
+}
+
+#Action
+
+.heading5 {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 2.5em;
+  padding: 5% 0;
+  text-align: center;
+}
+
+.email-btn {
+  padding: 5% 0;
+  text-align: center;
+}
+
+.cta-btn {
+  background-color: #fff;
+  border: solid .16em #264653;
+  font-size: 1.25em;
+  padding: 0.5em 3em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cta-btn:hover {
+  background-color: #264653;
+  color: #fff;
+}
+
+/* Contact */
+
+#Contact {
+  background-color: #2a9d8f;
+}
+
+.heading6 {
+  padding: 5%;
+  text-align: center;
+  font-size: 2.5em;
+}
+.social-media {
+  padding: 5%;
+  text-align: center;
+}
+
+.social-icon {
+  color: #fff;
+  padding: 0 5%;
+}
+
+.copyright {
+  padding: 5%;
+  color: #fff;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+  .heading1 {
+    text-align: center;
+  }
+  .heading2 {
+    text-align: center;
+  }
+
+  .park-image {
+    text-align: center;
+  }
+
+  .buttons {
+    margin: 0 5%;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .cta-btn {
+    margin: 3%;
+  }
+
+  .btn-short {
+    padding: .3em 4.2em;
+  }
+
+}
